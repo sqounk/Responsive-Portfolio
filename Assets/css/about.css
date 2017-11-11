@@ -1,0 +1,26 @@
+.main-flag {
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+	width: 200px;
+}
+
+@media screen and (max-width: 980px) {
+	.main-flag {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-flag {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.main-flag {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,36 @@
+input {
+	width: 100%;
+	font-size: 14px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+textarea {
+	width: 100%;
+	font-size: 14px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #4aaaa5;
+    border-color: #4aaaa5;
+    border: 2px;
+    border-style: solid;
+}

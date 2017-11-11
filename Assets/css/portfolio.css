@@ -1,0 +1,53 @@
+.portfolio a {
+	color: #ffffff;
+}
+
+.portfolio-icons {
+	margin: 20px;
+	float: left;
+	position: relative;
+}
+
+.portfolio-images {
+	width: 260px;
+}
+
+.portfolio-icons:hover {
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.portfolio-labels {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background-color: #4aaaa5;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.portfolio-labels p {
+	margin-top: 15px;
+}
+
+@media screen and (max-width: 980px) {
+	.portfolio-images {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.portfolio-images {
+		width: 240px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.portfolio-images {
+		width: 100%;
+	}
+}
